@@ -21,8 +21,11 @@ public class Vendedor implements Bonificable {
 
 	@Override
 	public double calcularBono(double salarioBase) {
-		// TODO: reemplazar esta línea por la fórmula correcta.
-		throw new UnsupportedOperationException("TODO: completar calcularBono() en Vendedor");
+	    if (numeroVentas >= 10) {
+	        return salarioBase * 0.15;
+	    } else {
+	        return salarioBase * 0.05;
+	    }
 	}
 
 	public String getNombre() {
