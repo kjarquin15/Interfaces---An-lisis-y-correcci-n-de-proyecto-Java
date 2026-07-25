@@ -22,8 +22,7 @@ public class Gerente implements Bonificable {
 
 	@Override
 	public double calcularBono(double salarioBase) {
-		// TODO: reemplazar esta línea por la fórmula correcta.
-		throw new UnsupportedOperationException("TODO: completar calcularBono() en Gerente");
+	    return 500 + (100 * aniosServicio);
 	}
 
 	public String getNombre() {
