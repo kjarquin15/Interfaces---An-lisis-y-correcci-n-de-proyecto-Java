@@ -19,13 +19,11 @@ public class Video implements Reproducible {
 
 	@Override
 	public void reproducir() {
-		// TODO: implementar según la pista de arriba.
-		throw new UnsupportedOperationException("TODO: completar reproducir() en Video");
-	}
+	    System.out.println("Reproduciendo video: " + titulo + " en " + resolucion);
+		}
 
 	@Override
 	public void detener() {
-		// TODO: implementar según la pista de arriba.
-		throw new UnsupportedOperationException("TODO: completar detener() en Video");
+	    System.out.println("Video detenido: " + titulo);
 	}
 }
