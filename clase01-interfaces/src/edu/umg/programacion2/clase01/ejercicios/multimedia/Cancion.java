@@ -19,13 +19,11 @@ public class Cancion implements Reproducible {
 
 	@Override
 	public void reproducir() {
-		// TODO: implementar según la pista de arriba.
-		throw new UnsupportedOperationException("TODO: completar reproducir() en Cancion");
+	    System.out.println("Reproduciendo canción: " + titulo + " (" + duracionSegundos + "s)");
 	}
 
 	@Override
 	public void detener() {
-		// TODO: implementar según la pista de arriba.
-		throw new UnsupportedOperationException("TODO: completar detener() en Cancion");
+	    System.out.println("Canción detenida: " + titulo);
 	}
 }
